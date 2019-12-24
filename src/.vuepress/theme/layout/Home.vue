@@ -16,12 +16,12 @@
     />
     <div class="social-icons" id="insta">
 			<div class="icon-svg">
-        <a href="https://instagram.com/onegroovydad">
+        <a href="https://instagram.com/gabe.css">
 					<img src="insta.svg" alt="Social Icon for Instagram">
         </a>
       </div>
       <div class="icon-svg" id="twitter">
-        <a href="https://twitter.com/dev_gabe">
+        <a href="https://twitter.com/gabedotjs">
 					<img src="tw-icon.svg" alt="Social Icon for Twitter">
         </a>
       </div>
