@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.gabesousa.com/</loc>
+  <lastmod>2019-12-25T20:56:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.gabesousa.com/blog/</loc>
+  <lastmod>2019-12-25T20:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gabesousa.com/blog/single-file-components.html</loc>
+  <lastmod>2019-12-25T20:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gabesousa.com/blog/four-firefox-dev-tools.html</loc>
+  <lastmod>2019-12-25T20:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gabesousa.com/blog/fluid-animated-css-gradient-text.html</loc>
+  <lastmod>2019-12-25T20:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gabesousa.com/blog/introduction-to-css-grid.html</loc>
+  <lastmod>2019-12-25T20:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gabesousa.com/blog/javascript-parallax-effect.html</loc>
+  <lastmod>2019-12-25T20:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
