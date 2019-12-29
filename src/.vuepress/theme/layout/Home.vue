@@ -1,43 +1,55 @@
 <template>
-  <div class="home">
-    <div class="hero">
-      <img class="profile-pic" v-bind:src="data.pic" alt="A photo of Gabe Sousa looking b-e-a-utiful" />
-      <h1 class="title">{{ data.heroText || $title || 'Hello' }}</h1>
-      <h3 class="subtitle">{{ data.heroSubText }}</h3>
-      <h2
-        class="description"
-      >{{ data.tagline || $description || 'These bespectacled eyes see things. These trap-beat loving ears hear things. This Brazilian born, Bay State raised soul feels things - and I turn it all into immersive digital art.' }}</h2>
-    </div>
+  <div class="home-container">
+    <div class="home">
+      <div class="hero">
+        <img
+          class="profile-pic"
+          v-bind:src="data.pic"
+          alt="A photo of Gabe Sousa looking b-e-a-utiful"
+        />
+        <h1 class="title">{{ data.heroText || $title || "Hello" }}</h1>
+        <h3 class="subtitle">{{ data.heroSubText }}</h3>
+        <h2 class="description">
+          {{
+            data.tagline ||
+              $description ||
+              "These bespectacled eyes see things. These trap-beat loving ears hear things. This Brazilian born, Bay State raised soul feels things - and I turn it all into immersive digital art."
+          }}
+        </h2>
+      </div>
 
-    <BlogPostList
-      :pages="$site.pages"
-      :page-size="$site.themeConfig.homePageSize"
-      :start-page="$site.themeConfig.startPage"
-    />
-    <div class="social-icons" id="insta">
-			<div class="icon-svg">
-        <a href="https://instagram.com/gabe.css">
-					<img src="insta.svg" alt="Social Icon for Instagram">
-        </a>
+      <BlogPostList
+        :pages="$site.pages"
+        :page-size="$site.themeConfig.homePageSize"
+        :start-page="$site.themeConfig.startPage"
+      />
+      <div class="social-icons" id="insta">
+        <div class="icon-svg">
+          <a href="https://instagram.com/gabe.css">
+            <img src="insta.svg" alt="Social Icon for Instagram" />
+          </a>
+        </div>
+        <div class="icon-svg" id="twitter">
+          <a href="https://twitter.com/gabedotjs">
+            <img src="tw-icon.svg" alt="Social Icon for Twitter" />
+          </a>
+        </div>
+        <div class="icon-svg" id="dev-icon">
+          <a href="https://dev.to/gabe">
+            <img src="dev-icon.svg" alt="Social Icon for www.DEV.to" />
+          </a>
+        </div>
+        <div class="icon-svg" id="spotty">
+          <a
+            href="https://open.spotify.com/user/gsous?si=y7QirTxRS5GE9_JghvO__w"
+          >
+            <img src="s-icon.svg" alt="Social Icon for Spotify" />
+          </a>
+        </div>
       </div>
-      <div class="icon-svg" id="twitter">
-        <a href="https://twitter.com/gabedotjs">
-					<img src="tw-icon.svg" alt="Social Icon for Twitter">
-        </a>
-      </div>
-      <div class="icon-svg" id="dev-icon">
-        <a href="https://dev.to/gabe">
-					<img src="dev-icon.svg" alt="Social Icon for www.DEV.to">
-        </a>
-      </div>
-			 <div class="icon-svg" id="spotty">
-				 <a href="https://open.spotify.com/user/gsous?si=y7QirTxRS5GE9_JghvO__w">
-				 <img src="s-icon.svg" alt="Social Icon for Spotify">
-				 </a>
-				</div>
-    </div>
 
-    <div class="footer" v-if="data.footer">{{ data.footer }}</div>
+      <div class="footer" v-if="data.footer">{{ data.footer }}</div>
+    </div>
   </div>
 </template>
 
@@ -124,7 +136,7 @@ export default {
     font-weight: 400;
 		font-family: 'Avenir Next';
     letter-spacing: 4px;
-    color: #555;
+    color: #fff;
     background: linear-gradient(60deg, #ee0979, #ff6a00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -139,7 +151,7 @@ export default {
 
   time {
     font-size: 0.8rem;
-    color: #888;
+    color: #fff;
   }
 
   .blog-list__tags {
