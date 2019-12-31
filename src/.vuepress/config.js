@@ -7,7 +7,6 @@ module.exports = {
 		editLinks: true,
 		editLinkText: '',
 		nav: [
-			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
 		],
 		docsDir: 'src',
