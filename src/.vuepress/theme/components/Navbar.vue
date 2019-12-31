@@ -116,7 +116,6 @@ $navbar-horizontal-padding = 1.5rem
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
   position relative
-  box-shadow: 0 1px 3px #6662, 0 1px 2px #6662
   a, span, img
     display inline-block
   .logo

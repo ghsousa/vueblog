@@ -163,7 +163,7 @@ export default {
     width 10rem
     color lighten($textColor, 25%)
     display inline-block
-    border 1px solid #0003
+    border 1px solid #ddd
     border-radius 2rem
     font-size 0.9rem
     line-height 2rem
