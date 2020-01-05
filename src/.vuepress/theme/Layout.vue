@@ -192,17 +192,3 @@ export default {
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
 <style src="./styles/theme.styl" lang="stylus"></style>
-<style> 
-.page-enter-active {
-  transition: opacity 0.25s ease-out;
-}
-
-.page-leave-active {
-  transition: opacity 0.25s ease-in;
-}
-
-.page-enter,
-.page-leave-active {
-  opacity: 0;
-}
-</style>
