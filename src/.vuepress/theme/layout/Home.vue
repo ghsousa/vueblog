@@ -30,7 +30,7 @@
           </a>
         </div>
         <div class="icon-svg" id="twitter">
-          <a href="https://twitter.com/gabedotjs">
+          <a href="https://twitter.com/gabedotcss">
             <img src="tw-icon.svg" alt="Social Icon for Twitter" />
           </a>
         </div>
