@@ -5,7 +5,7 @@
         <img
           class="profile-pic"
           v-bind:src="data.pic"
-          alt="A photo of Gabe Sousa looking b-e-a-utiful"
+          alt="A comic book like photo of Gabe Sousa"
         />
         <h1 class="title">{{ data.heroText || $title || "Hello" }}</h1>
         <h3 class="subtitle">{{ data.heroSubText }}</h3>
